@@ -97,7 +97,7 @@ export default function Intro() {
         <a
           target="_blank"
           href="#"
-          className="p-4 cursor-pointer bg-gray-900 text-white flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 motion-safe:transition-all dark:bg-white-10 dark:text-white/60"
+          className="p-4 cursor-pointer bg-gray-900 text-white flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 motion-safe:transition-all dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
