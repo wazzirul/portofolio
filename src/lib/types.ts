@@ -6,3 +6,11 @@ export type Link = {
   nameEng: string;
   hash: string;
 };
+
+export type ProjectInfo = {
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: string;
+  link: string;
+};

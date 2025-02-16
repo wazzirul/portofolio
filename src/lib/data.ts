@@ -1,4 +1,4 @@
-import { Link } from '../lib/types';
+import { Link, ProjectInfo } from '../lib/types';
 
 export const links: Link[] = [
   {
@@ -20,5 +20,40 @@ export const links: Link[] = [
   {
     nameEng: 'Contact',
     hash: '#contact',
+  },
+];
+
+export const projectsData: ProjectInfo[] = [
+  {
+    title: 'Snowlake Theme',
+    description:
+      'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    tags: ['React', 'Next', 'Tailwind', 'Typescript', 'Framer Motion'],
+    imageUrl: '/image1.png',
+    link: 'https://www.google.com',
+  },
+  {
+    title: 'Hellfire Theme',
+    description:
+      'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    tags: ['React', 'Next', 'Tailwind', 'Typescript', 'Framer Motion'],
+    imageUrl: '/image2.png',
+    link: 'https://www.google.com',
+  },
+  {
+    title: 'Vegas Theme',
+    description:
+      'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    tags: ['React', 'Next', 'Tailwind', 'Typescript', 'Framer Motion'],
+    imageUrl: '/image3.png',
+    link: 'https://www.google.com',
+  },
+  {
+    title: 'Snowlake Theme',
+    description:
+      'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    tags: ['React', 'Next', 'Tailwind', 'Typescript', 'Framer Motion'],
+    imageUrl: '/image4.png',
+    link: 'https://www.google.com',
   },
 ];
