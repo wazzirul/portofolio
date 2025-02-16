@@ -30,7 +30,7 @@ const About = () => {
           <SectionHeading>About Me</SectionHeading>
         </Fade>
 
-        <div className="grid xl:grid-cols-2 lg:text-start">
+        <div className="grid xl:grid-cols-2 lg:text-start gap-8">
           <div className="flex-1">
             <div className="text-lg mt-12 xl:mt-3">
               <div className="flex justify-start flex-col">
@@ -94,10 +94,10 @@ const About = () => {
             >
               {/* Right Image */}
               <Image
-                src={'/about.png'}
+                src={'/about-zirul.jpg'}
                 alt="About Me"
-                width={600}
-                height={600}
+                width={500}
+                height={500}
                 quality={100}
                 priority={true}
                 className="rounded-full mt-8 object-cover"

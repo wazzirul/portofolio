@@ -36,7 +36,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/boy.png"
+              src="/about-zirul.jpg"
               width={480}
               height={480}
               alt="portrait"
@@ -70,11 +70,11 @@ export default function Intro() {
       >
         <h1 className="mb-10 mt-4 text-2xl sm:text-4xl">
           <span className="font-medium !leading-[1.5]">
-            Grow your business with a new website.
+            Hi, I'm Wazirul – A Passionate Web Developer
           </span>{' '}
           <p className="text-[14px]">
-            Frontend is a full-service creative studio creating beatiful digital
-            experiences and products.
+            Creating seamless and engaging digital experiences with React,
+            Next.js, and modern web technologies.
           </p>
         </h1>
       </Fade>
@@ -88,7 +88,7 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#"
+          href="mailto:mwazirulazzan@gmail.com"
           className="group cursor-pointer bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 motion-safe:transition-all dark:bg-white/10 dark:text-white/60"
         >
           Connect <Mail color="#9ca3af" />
@@ -96,7 +96,7 @@ export default function Intro() {
 
         <a
           target="_blank"
-          href="#"
+          href="https://www.linkedin.com/in/wazirul/"
           className="p-4 cursor-pointer bg-gray-900 text-white flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 motion-safe:transition-all dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
@@ -104,7 +104,7 @@ export default function Intro() {
 
         <a
           target="_blank"
-          href="#"
+          href="https://github.com/wazzirul"
           className="p-4 cursor-pointer bg-gray-900 text-white flex items-center gap-2 text-[1.35rem] rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:bg-gray-950 active:scale-105 motion-safe:transition-all dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />

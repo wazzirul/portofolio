@@ -57,3 +57,20 @@ export const projectsData: ProjectInfo[] = [
     link: 'https://www.google.com',
   },
 ];
+
+export const skillsData = [
+  'HTML',
+  'CSS',
+  'Javascript',
+  'Typescript',
+  'React',
+  'Next.js',
+  'Node.js',
+  'Git',
+  'Tailwind',
+  'Prisma',
+  'MongoDB',
+  'Redux Toolkit',
+  'Express',
+  'Framer Motion',
+];
