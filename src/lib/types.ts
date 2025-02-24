@@ -13,4 +13,5 @@ export type ProjectInfo = {
   tags: string[];
   imageUrl: string;
   link: string;
+  color: string;
 };

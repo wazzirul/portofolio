@@ -41,7 +41,7 @@ const About = () => {
                   damping={1e-1}
                   triggerOnce={true}
                 >
-                  <h3 className="font-bold mt-6">Our Mission</h3>
+                  <h3 className="font-bold mt-6">My Approach</h3>
                 </Fade>
                 <Fade
                   direction="up"
@@ -51,10 +51,10 @@ const About = () => {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    We Believe that a website is the foundation of a successful
-                    online presence, and our goal is to help businesses
-                    establish a strong digital presence. Our process begins with
-                    understanding your business goals.
+                    I believe that a well-built website is more than just
+                    design—it’s a powerful tool for engagement and growth. My
+                    goal is to create seamless, high-performing web experiences
+                    that align with your business needs.
                   </p>
                 </Fade>
                 <Fade
@@ -64,7 +64,7 @@ const About = () => {
                   damping={1e-1}
                   triggerOnce={true}
                 >
-                  <h3 className="font-bold mt-6">Our Vision</h3>
+                  <h3 className="font-bold mt-6">My Commitment</h3>
                 </Fade>
                 <Fade
                   direction="up"
@@ -74,16 +74,16 @@ const About = () => {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    We then use this information to create a custom website that
-                    not only reflects your brand but also helps you achieve your
-                    business objectives. From responsive design to intuitive
-                    navigation, we focus on every detail.
+                    I focus on crafting intuitive and visually appealing
+                    front-end experiences, ensuring smooth navigation,
+                    responsiveness, and accessibility. Every interaction,
+                    animation, and layout detail is designed to enhance user
+                    engagement and performance across all devices.
                   </p>
                 </Fade>
               </div>
             </div>
           </div>
-
           <div>
             <Fade
               direction="right"
@@ -92,15 +92,14 @@ const About = () => {
               damping={1e-1}
               triggerOnce={true}
             >
-              {/* Right Image */}
               <Image
-                src={'/about-zirul.jpg'}
-                alt="About Me"
-                width={500}
-                height={500}
-                quality={100}
+                src="/about-zirul.jpg"
+                width="600"
+                height="600"
+                alt="portrait"
+                quality="100"
                 priority={true}
-                className="rounded-full mt-8 object-cover"
+                className="rounded-full object-cover"
               />
             </Fade>
           </div>
