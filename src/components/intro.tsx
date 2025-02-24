@@ -18,11 +18,7 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section
-      ref={ref}
-      id="home"
-      className="mb-28 max-w-[75rem] text-center sm:mb-0"
-    >
+    <section ref={ref} id="home" className="max-w-[75rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -42,7 +38,7 @@ export default function Intro() {
               alt="portrait"
               quality={100}
               priority={true}
-              className="rounded-full shadow-xl object-cover"
+              className="rounded-full shadow-xl object-cover h-[90%] w-[90%] sm:h-auto sm:w-auto mx-auto"
             />
           </motion.div>
           <motion.span
@@ -68,7 +64,7 @@ export default function Intro() {
         damping={1e-1}
         triggerOnce={true}
       >
-        <h1 className="mb-10 mt-4 text-2xl sm:text-4xl">
+        <h1 className="mb-10 mt-8 text-2xl sm:text-4xl">
           <span className="font-medium !leading-[1.5]">
             Hi, I&apos;m Wazirul – A Passionate Web Developer
           </span>{' '}

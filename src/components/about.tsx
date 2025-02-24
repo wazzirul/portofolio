@@ -14,7 +14,7 @@ const About = () => {
     <motion.section
       id="about"
       ref={ref}
-      className="max-w-[45rem] text-center mt-32 leading-8 mb-28 sm:mb-40 scroll-mt-28"
+      className="max-w-[45rem] text-center mt-8 leading-8 mb-10 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -30,9 +30,9 @@ const About = () => {
           <SectionHeading>About Me</SectionHeading>
         </Fade>
 
-        <div className="grid xl:grid-cols-2 lg:text-start gap-8">
-          <div className="flex-1">
-            <div className="text-lg mt-12 xl:mt-3">
+        <div className="grid lg:grid-cols-2 lg:text-start gap-8 lg:gap-4 xl:gap-8">
+          <div className="flex-1 flex flex-col items-center justify-center">
+            <div className="text-lg">
               <div className="flex justify-start flex-col">
                 <Fade
                   direction="up"
@@ -41,7 +41,7 @@ const About = () => {
                   damping={1e-1}
                   triggerOnce={true}
                 >
-                  <h3 className="font-bold mt-6">My Approach</h3>
+                  <h3 className="font-bold">My Approach</h3>
                 </Fade>
                 <Fade
                   direction="up"
@@ -99,7 +99,7 @@ const About = () => {
                 alt="portrait"
                 quality="100"
                 priority={true}
-                className="rounded-full object-cover w-[400px] h-[400px] object-top"
+                className="rounded-full object-cover w-[400px] h-[400px] object-top mx-auto"
               />
             </Fade>
           </div>
