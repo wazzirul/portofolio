@@ -7,8 +7,7 @@ import Hamburger from 'hamburger-react';
 import { useActiveSectionContext } from '@/containers/active-section';
 
 // Animation
-import { AnimatePresence, hover, motion } from 'framer-motion';
-import { div } from 'framer-motion/client';
+import { AnimatePresence, motion } from 'framer-motion';
 
 type HamburgerMenuProps = {
   links: Link[];

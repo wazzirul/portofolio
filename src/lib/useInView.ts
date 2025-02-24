@@ -12,7 +12,7 @@ export function useSectionInView(section: SectionName, threshold = 0.75) {
     if (inView && Date.now() - timeOfLastClick > 1000) {
       setActiveSection(section);
     }
-  }, [inView, setActiveSection, timeOfLastClick, section]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [inView, setActiveSection, timeOfLastClick, section]);
 
   return {
     ref,

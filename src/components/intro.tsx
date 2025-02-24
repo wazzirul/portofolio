@@ -70,7 +70,7 @@ export default function Intro() {
       >
         <h1 className="mb-10 mt-4 text-2xl sm:text-4xl">
           <span className="font-medium !leading-[1.5]">
-            Hi, I'm Wazirul – A Passionate Web Developer
+            Hi, I&apos;m Wazirul – A Passionate Web Developer
           </span>{' '}
           <p className="text-[14px]">
             Creating seamless and engaging digital experiences with React,
@@ -88,7 +88,12 @@ export default function Intro() {
         }}
       >
         <Link
-          href="mailto:mwazirulazzan@gmail.com"
+          // href="mailto:mwazirulazzan@gmail.com"
+          href="#contact"
+          onClick={() => {
+            setActiveSection('#contact');
+            setTimeOfLastClick(Date.now());
+          }}
           className="group cursor-pointer bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 motion-safe:transition-all dark:bg-white/10 dark:text-white/60"
         >
           Connect <Mail color="#9ca3af" />

@@ -1,10 +1,10 @@
 'use client';
-import { skillsData } from '@/lib/data';
-import SectionHeading from './section-heading';
-import { useSectionInView } from '@/lib/useInView';
 
+import React from 'react';
+import SectionHeading from './section-heading';
+import { skillsData } from '@/lib/data';
+import { useSectionInView } from '@/lib/useInView';
 import { motion } from 'framer-motion';
-import { init } from 'next/dist/compiled/webpack/webpack';
 
 const fadeInAnimationVariants = {
   initial: {
