@@ -93,13 +93,13 @@ const About = () => {
               triggerOnce={true}
             >
               <Image
-                src="/about-zirul.jpg"
+                src="/profile.jpg"
                 width="600"
                 height="600"
                 alt="portrait"
                 quality="100"
                 priority={true}
-                className="rounded-full object-cover"
+                className="rounded-full object-cover w-[400px] h-[400px] object-top"
               />
             </Fade>
           </div>
